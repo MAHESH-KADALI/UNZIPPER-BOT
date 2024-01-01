@@ -51,8 +51,8 @@ class Messages:
     BOT_RESTARTED = """
 Bot restarted !
 
-**Old launch time** : `{}`
-**New launch time** : `{}`
+**Old boot time** : `{}`
+**New boot time** : `{}`
     """
 
     RESEND_TASK = """
@@ -102,7 +102,7 @@ This may take a while, go grab a coffee ☕️
 {}
 {}
 
-**Powered by @EDM115bots**
+**Powered by @hexafreinds**
     """
 
     PROCESSING = "**Processing…**"
@@ -123,7 +123,7 @@ This may take a while, go grab a coffee ☕️
 
     LOG_CHECKED = "Log channel alright"
 
-    BOT_RUNNING = "Bot is running now ! Join https://t.me/+-IhhRN5PECswM2I9"
+    BOT_RUNNING = "Bot is running now ! Join @hexafreinds"
 
     WRONG_LOG = """
 Error : the provided **LOGS_CHANNEL** (`{}`) is incorrect
@@ -208,7 +208,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you couldn’t send any other task 🙂🔫 (may be fixed in the future)
 
-Please report this at @hexafreinds if you think this is a serious error
+Please report this at @EDM115_chat if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` files were extracted from that archive"
@@ -251,7 +251,7 @@ Hi **{}** 👋, I'm **Unarchiver bot** 🥰
 
 I can extract archives like `zip`, `rar`, `tar`, …
 
-**Made with ❤️ by @EDM115bots**
+**Made with ❤️ by @maheshsirip**
 
 **/donate** if you can 🥺
     """
@@ -274,12 +274,12 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 
 **• Got an error ?**
-    Visit @hexafreinds and explain your problem there
+    Visit @hexafreinds and say your problem there
 
 
 **• I wanna have help 🥺**
 
-    PM me at **@maheshsiroo** or join the chat **@hexafreinds**
+    PM me at **@maheshsirop** or join the chat **@hexafreinds**
     """
 
     ABOUT_TXT = """
@@ -301,12 +301,10 @@ So if you can, donate :)
 It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 
 --How ?--
-**MESSAGE MY OWNER AND DONATE THERE @maheshsirop
+Message @maheshsirop and donate.
 
 Thanks for your contribution 😊
 
---Side note :--
-Donation doesn't count as a VIP subscription. Check **/vip_info** for more info
     """
 
     VIP_INFO = """
@@ -328,7 +326,9 @@ Here's how : Become a VIP user and benefit from extra perks !
 
 **How to become a VIP ?**
 1) Send **/pay** to the bot
-2) Choose
+2) Choose your subscription
+3) Send a screenshot of your payment to **@maheshsirop**
+4) Enjoy your VIP perks !
 
 **What happens when my subscription ends ?**
 If you choosed GitHub Sponsors, Telegram Donate or BuyMeACoffee, you will be automatically renewed until you cancel it
@@ -465,7 +465,7 @@ Do you really want to delete your thumbnail ?
 
 `{}`
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @hexafreinds if you think this is a serious error
     """
 
     CANCELLED_TXT = "**{} ✅**"
@@ -521,7 +521,7 @@ That's not an archive 💀
 
     DEF_NOT_AN_ARCHIVE = """
 This file is NOT an archive 😐
-If you believe it's an error, send the file to **@EDM115**
+If you believe it's an error, send the file to **@hexafreinds**
     """
 
     PROCESSING2 = "`Processing… ⏳`"
@@ -567,7 +567,7 @@ Please send the new file name (**--INCLUDE THE FILE EXTENTION !--**)
     UPLOADED = """
 **Successfully uploaded ✅**
 
-**Join @EDM115bots ❤️**
+**Join @hexafreinds ❤️**
     """
 
     NO_FILE_LEFT = "There's no file left to upload"
@@ -677,12 +677,12 @@ It failed 😣 Retry
 If it fails again, it means that {} haven't started the bot yet (or deleted the chat), or he's private/banned/whatever
     """
 
-    REPORT_REPLY = "Reply to a message to report it to @EDM115"
+    REPORT_REPLY = "Reply to a message to report it to @maheshsirop"
 
     REPORT_DONE = """
 Report sucessfully sent ! An answer will arrive soon
 
-Note : if you need to reply to replies, always use that /report command (or join **@EDM115_chat**)
+Note : if you need to reply to replies, always use that /report command (or join **@hexafreinds)
     """
 
     BAN_ID = "Give an user id to ban 😈"
