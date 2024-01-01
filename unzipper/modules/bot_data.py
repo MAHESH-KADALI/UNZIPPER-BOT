@@ -51,8 +51,8 @@ class Messages:
     BOT_RESTARTED = """
 Bot restarted !
 
-**Old boot time** : `{}`
-**New boot time** : `{}`
+**Old launch time** : `{}`
+**New launch time** : `{}`
     """
 
     RESEND_TASK = """
@@ -71,7 +71,7 @@ Don't go AFK next time 😉
     BANNED = """
 **Sorry you're banned 💀**
 
-Report this at @EDM115_chat if you think this is a mistake, I may unban you
+Report this at @hexafreinds if you think this is a mistake, I may unban you
     """
 
     NEW_USER_BAD = """
@@ -123,7 +123,7 @@ This may take a while, go grab a coffee ☕️
 
     LOG_CHECKED = "Log channel alright"
 
-    BOT_RUNNING = "Bot is running now ! Join @EDM115bots"
+    BOT_RUNNING = "Bot is running now ! Join https://t.me/+-IhhRN5PECswM2I9"
 
     WRONG_LOG = """
 Error : the provided **LOGS_CHANNEL** (`{}`) is incorrect
@@ -159,7 +159,7 @@ Select the extraction mode for that merged file 👀
     EXT_CAPTION = """
 `{}`
 
-Successfully extracted by @unzip_edm115bot 🥰
+Successfully extracted by @maheshsiropunzipbot 🥰
     """
 
     URL_UPLOAD = """
@@ -175,7 +175,7 @@ An error happened for `{}` 😕
 **Error type :** `{}`
 **Error message :** `{}`
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @hexafreinds if you think this is a serious error
     """
 
     REPORT_TEXT = """
@@ -208,7 +208,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you couldn’t send any other task 🙂🔫 (may be fixed in the future)
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at @hexafreinds if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` files were extracted from that archive"
@@ -274,12 +274,12 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 
 **• Got an error ?**
-    Visit edm115.eu.org/unzip#help
+    Visit @hexafreinds and explain your problem there
 
 
 **• I wanna have help 🥺**
 
-    PM me at **@EDM115** or join the chat **@EDM115_chat**
+    PM me at **@maheshsiroo** or join the chat **@hexafreinds**
     """
 
     ABOUT_TXT = """
@@ -287,11 +287,9 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 • **Language :** [Python 3.11.5](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot)
-• **Developer :** [EDM115](https://github.com/EDM115)
+• **Developer :** [Maheshsirop](https://t.me/maheshsirop)
 
-**[Rate me ⭐](https://t.me/BotsArchive/2705)**
-Made with ❤️ by **@EDM115bots**
+Made with ❤️ by **@maheshsirop**
     """
 
     DONATE_TEXT = """
@@ -303,16 +301,12 @@ So if you can, donate :)
 It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 
 --How ?--
-• **[Paypal](https://www.paypal.me/8EDM115)**
-• **[GitHub Sponsors](https://github.com/sponsors/EDM115)**
-• **[Directly in Telegram](https://t.me/EDM115bots/544)**
-• **[BuyMeACoffee](https://www.buymeacoffee.com/edm115)**
-• **[Send cryptos (not recommended)](https://edm115.shadd.eu.org/)**
+**MESSAGE MY OWNER AND DONATE THERE @maheshsirop
 
 Thanks for your contribution 😊
 
 --Side note :--
-Donation doesn't count as a VIP subscription. Check **/vip** for more info
+Donation doesn't count as a VIP subscription. Check **/vip_info** for more info
     """
 
     VIP_INFO = """
@@ -334,9 +328,7 @@ Here's how : Become a VIP user and benefit from extra perks !
 
 **How to become a VIP ?**
 1) Send **/pay** to the bot
-2) Choose your subscription
-3) Send a screenshot of your payment to **@EDM115**
-4) Enjoy your VIP perks !
+2) Choose
 
 **What happens when my subscription ends ?**
 If you choosed GitHub Sponsors, Telegram Donate or BuyMeACoffee, you will be automatically renewed until you cancel it
