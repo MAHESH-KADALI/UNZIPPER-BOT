@@ -7,7 +7,7 @@ from cloudscraper import create_scraper
 from urllib.parse import quote
 from urllib3 import disable_warnings
 
-from bot import LOGGER, shorteneres_list
+from unzipper import LOGGER, shorteneres_list
 
 
 def short_url(longurl, attempt=0):
