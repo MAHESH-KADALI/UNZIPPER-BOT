@@ -51,8 +51,8 @@ class Messages:
     BOT_RESTARTED = """
 Bot restarted !
 
-**Old boot time** : `{}`
-**New boot time** : `{}`
+**Old wake up time** : `{}`
+**New wake up time** : `{}`
     """
 
     RESEND_TASK = """
