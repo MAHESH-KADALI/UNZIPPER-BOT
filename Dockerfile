@@ -8,7 +8,7 @@ RUN pip install -U pip setuptools wheel && \
     mkdir /app && \
     pacman -Scc --noconfirm
 WORKDIR /app
-RUN git clone https://github.com/EDM115/unzip-bot.git /app
+RUN git clone https://github.com/MAHESH-KADALI/UNZIPPER-BOT.git /app
 COPY requirements.txt /app/requirements.txt
 RUN pip install -U -r requirements.txt
 CMD ["bash", "start.sh"]
