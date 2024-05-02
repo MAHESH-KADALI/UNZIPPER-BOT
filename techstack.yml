@@ -1,11 +1,12 @@
 repo_name: EDM115/unzip-bot
-report_id: 2583f03ee931b2fc651d8ca39fbc0459
+report_id: a22151c2a9a30641224fb622a23031a5
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T12:17:50+00:00'
+timestamp: '2024-02-29T18:13:11+00:00'
 requested_by: EDM115
 provider: github
 branch: master
-detected_tools_count: 19
+detected_tools_count: 17
 tools:
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/EDM115/unzip-bot
   detection_source: Repo Metadata
 - name: MongoDB
   description: The database for giant ideas
@@ -25,20 +27,10 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/EDM115/unzip-bot/blob/master/unzipper/helpers/database.py
   detection_source: unzipper/helpers/database.py
   last_updated_by: EDM115
   last_updated_on: 2023-08-28 15:49:59.000000000 Z
-- name: pgvector
-  description: Open-source vector similarity search for Postgres
-  website_url: https://github.com/pgvector/pgvector/
-  open_source: false
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Database Tools
-  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
-  detection_source: requirements.txt
-  last_updated_by: EDM 1.15
-  last_updated_on: 2022-05-02 04:19:37.000000000 Z
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
   website_url: https://www.docker.com/
@@ -48,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/EDM115/unzip-bot
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -57,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/EDM115/unzip-bot
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -66,6 +60,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/EDM115/unzip-bot/blob/master/.github/workflows/black-code-style.yml
   detection_source: ".github/workflows/black-code-style.yml"
   last_updated_by: renovate[bot]
   last_updated_on: 2023-10-10 07:17:45.000000000 Z
@@ -77,6 +72,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/EDM115/unzip-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: EDM 1.15
   last_updated_on: 2022-05-02 04:19:37.000000000 Z
@@ -89,6 +85,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/EDM115/unzip-bot/blob/master/app.json
   detection_source: app.json
   last_updated_by: EDM 1.15
   last_updated_on: 2023-01-09 14:02:29.000000000 Z
@@ -100,20 +97,10 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/EDM115/unzip-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: renovate[bot]
   last_updated_on: 2023-10-15 16:24:32.000000000 Z
-- name: LangChain
-  description: Build AI apps with LLMs through composability
-  website_url: https://github.com/hwchase17/langchain
-  open_source: true
-  hosted_saas: false
-  category: Communications
-  sub_category: Large Language Model Tools
-  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
-  detection_source: requirements.txt
-  last_updated_by: EDM 1.15
-  last_updated_on: 2022-05-02 04:19:37.000000000 Z
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
     files. Shell scripts typically manage program execution.
@@ -123,11 +110,12 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/EDM115/unzip-bot
   detection_source: Repo Metadata
 - name: GitPython
   description: Python Git Library
   package_url: https://pypi.org/project/GitPython
-  version: 3.1.40
+  version: 3.1.41
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
@@ -137,7 +125,7 @@ tools:
   detection_source_url: https://github.com/EDM115/unzip-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: renovate[bot]
-  last_updated_on: 2023-10-18 17:18:37.000000000 Z
+  last_updated_on: 2024-01-10 17:26:25.000000000 Z
 - name: aiofiles
   description: File support for asyncio
   package_url: https://pypi.org/project/aiofiles
@@ -166,6 +154,20 @@ tools:
   detection_source: requirements.txt
   last_updated_by: renovate[bot]
   last_updated_on: 2023-11-26 18:24:43.000000000 Z
+  vulnerabilities:
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
 - name: dnspython
   description: DNS toolkit
   package_url: https://pypi.org/project/dnspython
@@ -179,7 +181,7 @@ tools:
   detection_source_url: https://github.com/EDM115/unzip-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: renovate[bot]
-  last_updated_on: 2023-10-18 17:18:37.000000000 Z
+  last_updated_on: 2024-01-10 17:26:25.000000000 Z
 - name: gitdb
   description: Git Object Database
   package_url: https://pypi.org/project/gitdb
@@ -211,7 +213,7 @@ tools:
 - name: psutil
   description: Cross-platform lib for process and system monitoring in Python
   package_url: https://pypi.org/project/psutil
-  version: 5.9.6
+  version: 5.9.7
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
@@ -221,7 +223,7 @@ tools:
   detection_source_url: https://github.com/EDM115/unzip-bot/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: renovate[bot]
-  last_updated_on: 2023-10-15 15:57:54.000000000 Z
+  last_updated_on: 2023-12-17 12:38:31.000000000 Z
 - name: requests
   description: Python HTTP for Humans
   package_url: https://pypi.org/project/requests
