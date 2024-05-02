@@ -1,5 +1,6 @@
-# Copyright (c) 2023 EDM115
+# Copyright (c) 2022 - 2024 EDM115
 import os
+import shutil
 
 from PIL import Image
 
@@ -46,7 +47,7 @@ async def add_thumb(_, message):
                 file_name=file.split("/")[-1],
                 caption=Messages.EXT_CAPTION.format(file),
             )
-            os.rename(file, pre_thumb)
+            shutil.move(file, pre_thumb)
             size = 320, 320
             try:
                 with Image.open(pre_thumb) as previous:
@@ -82,7 +83,9 @@ async def del_thumb(message):
         if not os.path.exists(thumb_location):
             await message.reply(text=Messages.NO_THUMB)
         else:
-            await message.reply(text=Messages.DEL_CONFIRM_THUMB, reply_markup=Buttons.THUMB_DEL)
+            await message.reply(
+                text=Messages.DEL_CONFIRM_THUMB, reply_markup=Buttons.THUMB_DEL
+            )
     except FloodWait as f:
         await sleep(f.value)
         return await del_thumb(message)
