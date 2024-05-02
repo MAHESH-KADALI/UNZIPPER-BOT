@@ -9,8 +9,8 @@
         "Telegram Bot",
         "unzipper bot"
     ],
-    "website": "https://edm115.dev/unzip",
-    "repository": "https://github.com/maheshsirop/UNZIPPER-BOT",
+    "website": "https://t.me/maheshsirop",
+    "repository": "https://github.com/mahesh-kadali/unzipper-bot",
     "success_url": "https://t.me/maheshsirop",
     "env": {
         "APP_ID": {
@@ -42,6 +42,9 @@
     "buildpacks": [
         {
             "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/HasibulKabir/heroku-buildpack-ffmpeg-ffprobe.git"
         }
     ],
     "formation": {
