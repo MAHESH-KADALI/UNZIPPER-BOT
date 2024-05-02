@@ -17,4 +17,4 @@ updates:
     pull-request-branch-name:
       separator: "/"
     reviewers:
-      - "EDM115"
+      - "mahesh-kadali"
