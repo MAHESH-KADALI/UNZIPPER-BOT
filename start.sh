@@ -1,9 +1,11 @@
+#!/bin/bash
 echo "
 🔥 Unzip Bot 🔥
 
-Copyright (c) 2022 - 2023 Mahesh
+Copyright (c) 2022 - 2024 Mahesh
 
 --> Join @hexafreinds on Telegram
---> Follow Maheshsirop on Github
+--> Follow MAHESH-KADALI on Github
 "
+source .env
 python3 -m unzipper
